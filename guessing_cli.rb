@@ -11,9 +11,11 @@ def run_guessing_game
       puts "You guessed the correct number!"
 
     elsif user_inputs != computer_guessed
-      puts "The computer guessed #{computer_guessed}"
-
+      puts "The computer guessed #{computer_guessed}."
     end
+
+
+    
   end
     puts "Goodbye!"
 end
