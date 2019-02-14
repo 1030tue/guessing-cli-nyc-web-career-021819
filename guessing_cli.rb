@@ -1,6 +1,6 @@
 # Code your solution here!
 def run_guessing_game
-
+  user_inputs=""
   computer_guessed= rand(1..6).to_s
 
   while user_inputs != "exit"
