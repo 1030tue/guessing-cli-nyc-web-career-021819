@@ -13,9 +13,7 @@ def run_guessing_game
     elsif user_inputs != computer_guessed
       puts "The computer guessed #{computer_guessed}"
 
-    elsif user_inputs == "exit"
-      puts "Goodbye!"
-
     end
   end
+    puts "Goodbye!"
 end
