@@ -2,7 +2,7 @@
 def run_guessing_game
   user_inputs=""
   computer_guessed= rand(1..6)
-  
+
   while user_inputs != "exit"
     puts "Guess a number between 1 and 6."
     user_inputs = gets.chomp
@@ -12,7 +12,10 @@ def run_guessing_game
 
     elsif user_inputs != computer_guessed
       puts "The computer guessed #{computer_guessed}"
+
+    elsif user_inputs == "exit"
+      puts "Goodbye!"
+
     end
   end
-  puts "Goodbye!"
 end
